@@ -12,7 +12,7 @@ const app = express();
 app.use(
   cors({
      //origin: "https://my-ecommerce-project-ten.vercel.app ", // your frontend dev origin
-    origin: "http://localhost:3000",
+    origin: "http://localhost:3001",
     credentials: true,
   })
 );
